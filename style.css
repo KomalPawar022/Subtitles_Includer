@@ -1,0 +1,17 @@
+body{
+    background-color:lightskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.vidArea.active{                                                                                                                                        
+    border:1px solid blue;
+}
+
+
+#mainDiv {
+    min-width: 384px;
+  }
