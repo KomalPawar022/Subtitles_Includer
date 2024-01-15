@@ -1,0 +1,41 @@
+<!-- <div id="app"></div> -->
+<!DOCTYPE html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class=" w-50  container justify-content-center align-items-center border" id="mainDiv">
+<div class=" w-90  container justify-content-center align-items-center border rounded bg-light mt-4" style="height: 400px;">
+    <h2 class="text-center m-2 p-2">Add Subtitles to your Video</h1>
+     <div class="vidArea  h-75 w-100 mb-2" style="border:1px dashed">
+        <div class="d-flex justify-content-center align-items-center h-100" id="remove">
+           <div>
+            <p class="text-center">
+                <br>
+                Drag & Drop <br>or<br> 
+               
+            </p>
+            <input type="file" id="browse" class="btn btn-primary" />
+            </div>
+        </div>
+     </div>
+</div>
+
+<div class="d-flex justify-content-center m-3  w-100">
+    <textarea class="col-9 mr-3">
+    </textarea>
+    <button class="btn btn-primary m-2" id="apply">Apply</button>
+</div>
+<button class="btn btn-primary w-100 mb-3" id="play">Play With Subtitles</button>
+<div class=" w-100 d-flex container justify-content-center align-items-center">
+<button class="btn btn-primary w-35 mb-3 m-1" id="dSub">Download Subtitles</button>
+<button class="btn btn-primary w-35 mb-3 m-1" id="dVid">Download Video</button>
+</div>
+</div>
+
+<script src="./index.js"></script>
+</body>
+</html>
